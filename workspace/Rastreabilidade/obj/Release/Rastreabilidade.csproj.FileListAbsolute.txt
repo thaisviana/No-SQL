@@ -1,0 +1,15 @@
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\Rastreabilidade.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\Rastreabilidade.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\Rastreabilidade.Entidades.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\Rastreabilidade.Util.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\Rastreabilidade.Entidades.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\MongoDB.Bson.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\MongoDB.Bson.xml
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\MongoDB.Driver.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\MongoDB.Driver.xml
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\Rastreabilidade.Util.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\obj\Release\ResolveAssemblyReference.cache
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\obj\Release\Rastreabilidade.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\obj\Release\Rastreabilidade.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\log4net.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\log4net.xml

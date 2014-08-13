@@ -1,0 +1,15 @@
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Persistence.Mongo.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Persistence.Mongo.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Bson.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Driver.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Entidades.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Util.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Entidades.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Bson.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Bson.xml
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Driver.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Driver.xml
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Util.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\obj\Debug\Rastreabilidade.Persistence.Mongo.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\obj\Debug\Rastreabilidade.Persistence.Mongo.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\obj\Debug\Rastreabilidade.Persistence.Mongo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b1f6ba93-52d1-483b-9119-03480ebd2a96" name="Thais@THAIS-PC 2012-10-09 15:05:11" runUser="Thais-PC\Thais" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="0b1de2ef-afc8-45f1-9259-cbd6685809c2">
+    <Deployment runDeploymentRoot="Thais_THAIS-PC 2012-10-09 15_05_11">
+      <DeploymentItem filename="C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Entidades.dll" />
+      <DeploymentItem filename="C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\Rastreabilidade.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-09T15:05:11.9271310-03:00" queuing="2012-10-09T15:05:14.8131361-03:00" start="2012-10-09T15:05:15.1407367-03:00" finish="2012-10-09T15:05:19.5711446-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RepositorioRetornaNomeAtributoChave" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="ac9456df-b644-598b-d918-1c72a7128348">
+      <Execution id="82b3438f-593b-48dc-ae95-37442cb1b44c" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Model.ConfiguracaoRepositorio, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RepositorioRetornaNomeAtributoChave" />
+    </UnitTest>
+    <UnitTest name="RepositorioRetornaValorAtributoChave" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="89c72902-675d-00a3-d254-db3d49f4c0da">
+      <Execution id="30eca8b2-db59-43b2-935d-79736fac8dc0" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Model.ConfiguracaoRepositorio, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RepositorioRetornaValorAtributoChave" />
+    </UnitTest>
+    <UnitTest name="ExcecaoSobrescritaConfiguracao" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="dbd8e01c-61bc-a1ff-d044-d5c926b12944">
+      <Execution id="a8fd0295-c4e8-4406-a3f6-60a5bcc28a0a" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Model.ConfiguracaoRepositorio, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExcecaoSobrescritaConfiguracao" />
+    </UnitTest>
+    <UnitTest name="SlugPreenchidoNoSetterDoNome" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="c2018b26-d1ca-aa30-8dda-dc026f4f9eed">
+      <Execution id="66cc5266-ed06-4b70-967e-326df97073d8" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Model.ValidacaoDeDadosTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SlugPreenchidoNoSetterDoNome" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c2018b26-d1ca-aa30-8dda-dc026f4f9eed" executionId="66cc5266-ed06-4b70-967e-326df97073d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac9456df-b644-598b-d918-1c72a7128348" executionId="82b3438f-593b-48dc-ae95-37442cb1b44c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89c72902-675d-00a3-d254-db3d49f4c0da" executionId="30eca8b2-db59-43b2-935d-79736fac8dc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbd8e01c-61bc-a1ff-d044-d5c926b12944" executionId="a8fd0295-c4e8-4406-a3f6-60a5bcc28a0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="66cc5266-ed06-4b70-967e-326df97073d8" testId="c2018b26-d1ca-aa30-8dda-dc026f4f9eed" testName="SlugPreenchidoNoSetterDoNome" computerName="THAIS-PC" duration="00:00:00.2985039" startTime="2012-10-09T15:05:15.4839373-03:00" endTime="2012-10-09T15:05:16.9776733-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66cc5266-ed06-4b70-967e-326df97073d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="82b3438f-593b-48dc-ae95-37442cb1b44c" testId="ac9456df-b644-598b-d918-1c72a7128348" testName="RepositorioRetornaNomeAtributoChave" computerName="THAIS-PC" duration="00:00:00.0045685" startTime="2012-10-09T15:05:16.9851734-03:00" endTime="2012-10-09T15:05:16.9964236-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82b3438f-593b-48dc-ae95-37442cb1b44c">
+    </UnitTestResult>
+    <UnitTestResult executionId="30eca8b2-db59-43b2-935d-79736fac8dc0" testId="89c72902-675d-00a3-d254-db3d49f4c0da" testName="RepositorioRetornaValorAtributoChave" computerName="THAIS-PC" duration="00:00:00.0068748" startTime="2012-10-09T15:05:17.0014236-03:00" endTime="2012-10-09T15:05:17.0151738-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30eca8b2-db59-43b2-935d-79736fac8dc0">
+    </UnitTestResult>
+    <UnitTestResult executionId="a8fd0295-c4e8-4406-a3f6-60a5bcc28a0a" testId="dbd8e01c-61bc-a1ff-d044-d5c926b12944" testName="ExcecaoSobrescritaConfiguracao" computerName="THAIS-PC" duration="00:00:02.4626592" startTime="2012-10-09T15:05:17.0214239-03:00" endTime="2012-10-09T15:05:19.4775445-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8fd0295-c4e8-4406-a3f6-60a5bcc28a0a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

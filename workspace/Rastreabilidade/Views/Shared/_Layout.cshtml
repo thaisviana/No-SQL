@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Static/css/bootstrap.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Static/css/bootstrap-responsive.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Static/css/rastreabilidade.css")" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"
+        type="text/javascript"></script>
+    <script src="@Url.Content("~/Static/js/bootbox.js")" type="text/javascript" />
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"
+        type="text/javascript"></script>
+    <script src="@Url.Content("~/Static/js/mustache.js")" type="text/javascript" />
+    <script type="text/javascript">
+        document.write('<script src="@Url.Content("~/Static/js/bootstrap.min.js")">\x3C/script>');
+    </script>
+    <script type="text/javascript">
+        window.jQuery || document.write('<script src="@Url.Content("~/Static/js/jquery-1.8.2.min.js")">\x3C/script>');
+    </script>
+    <script type="text/javascript">
+        window.jQuery.ui || document.write('<script src="@Url.Content("~/Static/js/jquery-ui-1.8.24.min.js")">\x3C/script>');
+    </script>
+    @Html.Partial("JavascriptDependencies")
+</head>
+<body>
+    <div class="container">
+        <div class="row-fluid">
+            @Html.Partial("HeaderSearchBar")
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                @Html.Partial("Messages")
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>

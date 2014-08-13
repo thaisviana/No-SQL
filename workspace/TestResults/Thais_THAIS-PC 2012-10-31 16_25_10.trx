@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="89b5a103-c900-4195-9dff-40ebf8768756" name="Thais@THAIS-PC 2012-10-31 16:25:10" runUser="Thais-PC\Thais" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="469d0e43-9322-4f75-8670-4260cdaf059f">
+    <Deployment runDeploymentRoot="Thais_THAIS-PC 2012-10-31 16_25_10">
+      <DeploymentItem filename="C:\ingresso\Rastreabilidade\lib\log4net.dll" />
+      <DeploymentItem filename="C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\Rastreabilidade.dll" />
+      <DeploymentItem filename="C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Persistence.Mongo.dll" />
+      <DeploymentItem filename="C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Entidades.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-31T16:25:10.1102051-02:00" queuing="2012-10-31T16:25:13.4353953-02:00" start="2012-10-31T16:25:13.7704145-02:00" finish="2012-10-31T16:25:29.0852904-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="9" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="THAIS-PC" outcome="Warning" timestamp="2012-10-31T16:25:12.1633226-02:00">
+        <Text>Warning: conflict during test run deployment: deployment item 'c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\Rastreabilidade.dll' directly or indirectly referenced by the test container 'c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll' cannot be deployed to 'Rastreabilidade.dll' because otherwise the file 'c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\Rastreabilidade.dll' would overwrite deployment item 'C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\Rastreabilidade.dll' directly or indirectly referenced by C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Tests\bin\Debug\Rastreabilidade.Tests.dll.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ExecutaBusca" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="7b53d40b-0422-5972-0072-a4ab7414fe73">
+      <Execution id="e4e73380-5627-420c-a8a3-e044b5d21fb8" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Controllers.BuscaControllerTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecutaBusca" />
+    </UnitTest>
+    <UnitTest name="SalvandoEntidadeSemChave" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="18e043c0-d611-5ffb-718e-fd8f9df60aa2">
+      <Execution id="9f52d612-ef7c-4287-840e-53b5eb660e22" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Model.MongoRepositoryTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SalvandoEntidadeSemChave" />
+    </UnitTest>
+    <UnitTest name="CicloVidaModulo" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="eb9a1d01-bd39-9b45-dc63-85730985768f">
+      <Execution id="90775a59-d941-4d95-a873-0cc357111aa7" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Model.MongoRepositoryTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CicloVidaModulo" />
+    </UnitTest>
+    <UnitTest name="ExcecaoBuscaModuloInexistente" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="ce2519ba-e438-1fd4-7591-ed700a19e8a2">
+      <Execution id="76c98ec7-6e80-4c80-9293-c0b034651fe5" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Model.MongoRepositoryTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExcecaoBuscaModuloInexistente" />
+    </UnitTest>
+    <UnitTest name="SaveModulo" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="f00948c6-5430-a8f8-cf48-5025af01f9e9">
+      <Execution id="ebaa9d01-5921-4470-b061-dbdac3c3d8a4" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Controllers.ModuloControllerTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveModulo" />
+    </UnitTest>
+    <UnitTest name="SaveEmptyUseCase" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="994395ad-27b7-3a25-b7bc-d557f9784db2">
+      <Execution id="3b55b552-156d-4bf7-ad7d-8bb13249380e" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Controllers.CasoUsoControllerTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveEmptyUseCase" />
+    </UnitTest>
+    <UnitTest name="SlugPreenchidoNoSetterDoNome" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="c2018b26-d1ca-aa30-8dda-dc026f4f9eed">
+      <Execution id="02548ce8-5572-4cf5-b5ab-9cbd17ba1569" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Model.ValidacaoDeDadosTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SlugPreenchidoNoSetterDoNome" />
+    </UnitTest>
+    <UnitTest name="GetCasoUso" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="9f523e3a-b979-899a-5d38-ac739d0d9b54">
+      <Execution id="07bee248-375c-4267-9f82-c0d41cc3a89a" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Controllers.CasoUsoControllerTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCasoUso" />
+    </UnitTest>
+    <UnitTest name="SaveUseCase" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="3f957e4c-c763-bf61-75b2-959bd5b466d6">
+      <Execution id="9f5ca6ba-5dfe-4ae0-aafd-4e5912d0e94d" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Controllers.CasoUsoControllerTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveUseCase" />
+    </UnitTest>
+    <UnitTest name="GetModulo" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="89cae443-5252-a3e8-a403-30c905e0cff8">
+      <Execution id="63b26cb4-d90e-4570-96c7-87b6a40c6fbf" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Controllers.ModuloControllerTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetModulo" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c2018b26-d1ca-aa30-8dda-dc026f4f9eed" executionId="02548ce8-5572-4cf5-b5ab-9cbd17ba1569" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89cae443-5252-a3e8-a403-30c905e0cff8" executionId="63b26cb4-d90e-4570-96c7-87b6a40c6fbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f523e3a-b979-899a-5d38-ac739d0d9b54" executionId="07bee248-375c-4267-9f82-c0d41cc3a89a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f957e4c-c763-bf61-75b2-959bd5b466d6" executionId="9f5ca6ba-5dfe-4ae0-aafd-4e5912d0e94d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="994395ad-27b7-3a25-b7bc-d557f9784db2" executionId="3b55b552-156d-4bf7-ad7d-8bb13249380e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b53d40b-0422-5972-0072-a4ab7414fe73" executionId="e4e73380-5627-420c-a8a3-e044b5d21fb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb9a1d01-bd39-9b45-dc63-85730985768f" executionId="90775a59-d941-4d95-a873-0cc357111aa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce2519ba-e438-1fd4-7591-ed700a19e8a2" executionId="76c98ec7-6e80-4c80-9293-c0b034651fe5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18e043c0-d611-5ffb-718e-fd8f9df60aa2" executionId="9f52d612-ef7c-4287-840e-53b5eb660e22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f00948c6-5430-a8f8-cf48-5025af01f9e9" executionId="ebaa9d01-5921-4470-b061-dbdac3c3d8a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="02548ce8-5572-4cf5-b5ab-9cbd17ba1569" testId="c2018b26-d1ca-aa30-8dda-dc026f4f9eed" testName="SlugPreenchidoNoSetterDoNome" computerName="THAIS-PC" duration="00:00:00.0219594" startTime="2012-10-31T16:25:14.0044279-02:00" endTime="2012-10-31T16:25:15.4075081-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02548ce8-5572-4cf5-b5ab-9cbd17ba1569">
+    </UnitTestResult>
+    <UnitTestResult executionId="63b26cb4-d90e-4570-96c7-87b6a40c6fbf" testId="89cae443-5252-a3e8-a403-30c905e0cff8" testName="GetModulo" computerName="THAIS-PC" duration="00:00:00.2146646" startTime="2012-10-31T16:25:15.4245091-02:00" endTime="2012-10-31T16:25:15.6455217-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63b26cb4-d90e-4570-96c7-87b6a40c6fbf">
+      <Output>
+        <StdErr>log4net:ERROR Failed to initialize configuration file watcher for file [C:\ingresso\Rastreabilidade\workspace\TestResults\Thais_THAIS-PC 2012-10-31 16_25_10\Out\Config\Log.config]
+System.ArgumentException: O nome de diretório C:\ingresso\Rastreabilidade\workspace\TestResults\Thais_THAIS-PC 2012-10-31 16_25_10\Out\Config é inválido.
+   em System.IO.FileSystemWatcher.set_Path(String value)
+   em log4net.Config.XmlConfigurator.ConfigureAndWatchHandler..ctor(ILoggerRepository repository, FileInfo configFile)
+   em log4net.Config.XmlConfigurator.InternalConfigureAndWatch(ILoggerRepository repository, FileInfo configFile)</StdErr>
+        <DebugTrace>log4net:ERROR Failed to initialize configuration file watcher for file [C:\ingresso\Rastreabilidade\workspace\TestResults\Thais_THAIS-PC 2012-10-31 16_25_10\Out\Config\Log.config]
+System.ArgumentException: O nome de diretório C:\ingresso\Rastreabilidade\workspace\TestResults\Thais_THAIS-PC 2012-10-31 16_25_10\Out\Config é inválido.
+   em System.IO.FileSystemWatcher.set_Path(String value)
+   em log4net.Config.XmlConfigurator.ConfigureAndWatchHandler..ctor(ILoggerRepository repository, FileInfo configFile)
+   em log4net.Config.XmlConfigurator.InternalConfigureAndWatch(ILoggerRepository repository, FileInfo configFile)
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07bee248-375c-4267-9f82-c0d41cc3a89a" testId="9f523e3a-b979-899a-5d38-ac739d0d9b54" testName="GetCasoUso" computerName="THAIS-PC" duration="00:00:00.0124562" startTime="2012-10-31T16:25:15.6515221-02:00" endTime="2012-10-31T16:25:15.6695231-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07bee248-375c-4267-9f82-c0d41cc3a89a">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f5ca6ba-5dfe-4ae0-aafd-4e5912d0e94d" testId="3f957e4c-c763-bf61-75b2-959bd5b466d6" testName="SaveUseCase" computerName="THAIS-PC" duration="00:00:00.0814572" startTime="2012-10-31T16:25:15.6765235-02:00" endTime="2012-10-31T16:25:15.7635285-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f5ca6ba-5dfe-4ae0-aafd-4e5912d0e94d">
+    </UnitTestResult>
+    <UnitTestResult executionId="3b55b552-156d-4bf7-ad7d-8bb13249380e" testId="994395ad-27b7-3a25-b7bc-d557f9784db2" testName="SaveEmptyUseCase" computerName="THAIS-PC" duration="00:00:00.0172510" startTime="2012-10-31T16:25:15.7695288-02:00" endTime="2012-10-31T16:25:15.7915301-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b55b552-156d-4bf7-ad7d-8bb13249380e">
+    </UnitTestResult>
+    <UnitTestResult executionId="e4e73380-5627-420c-a8a3-e044b5d21fb8" testId="7b53d40b-0422-5972-0072-a4ab7414fe73" testName="ExecutaBusca" computerName="THAIS-PC" duration="00:00:00.0048713" startTime="2012-10-31T16:25:15.7975304-02:00" endTime="2012-10-31T16:25:15.8075310-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4e73380-5627-420c-a8a3-e044b5d21fb8">
+    </UnitTestResult>
+    <UnitTestResult executionId="90775a59-d941-4d95-a873-0cc357111aa7" testId="eb9a1d01-bd39-9b45-dc63-85730985768f" testName="CicloVidaModulo" computerName="THAIS-PC" duration="00:00:03.6719808" startTime="2012-10-31T16:25:15.8185316-02:00" endTime="2012-10-31T16:25:19.4987421-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90775a59-d941-4d95-a873-0cc357111aa7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Rastreabilidade.Tests.Model.MongoRepositoryTest.CicloVidaModulo threw exception: 
+System.InvalidCastException: Não é possível converter um objeto do tipo 'System.Collections.Generic.List`1[Rastreabilidade.Entidades.Tabela]' no tipo 'Rastreabilidade.Entidades.Modulo'.</Message>
+          <StackTrace>    em Rastreabilidade.Persistence.Mongo.MongoRepository`1.Delete(Object key) na C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Persistence.Mongo\MongoRepository.cs:linha 87
+   em Rastreabilidade.Tests.Model.MongoRepositoryTest.CicloVidaModulo() na C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Tests\Model\MongoRepositoryTest.cs:linha 63
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="76c98ec7-6e80-4c80-9293-c0b034651fe5" testId="ce2519ba-e438-1fd4-7591-ed700a19e8a2" testName="ExcecaoBuscaModuloInexistente" computerName="THAIS-PC" duration="00:00:03.8814097" startTime="2012-10-31T16:25:19.5097428-02:00" endTime="2012-10-31T16:25:23.3999653-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76c98ec7-6e80-4c80-9293-c0b034651fe5">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f52d612-ef7c-4287-840e-53b5eb660e22" testId="18e043c0-d611-5ffb-718e-fd8f9df60aa2" testName="SalvandoEntidadeSemChave" computerName="THAIS-PC" duration="00:00:05.5292767" startTime="2012-10-31T16:25:23.4309670-02:00" endTime="2012-10-31T16:25:28.9662836-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f52d612-ef7c-4287-840e-53b5eb660e22">
+    </UnitTestResult>
+    <UnitTestResult executionId="ebaa9d01-5921-4470-b061-dbdac3c3d8a4" testId="f00948c6-5430-a8f8-cf48-5025af01f9e9" testName="SaveModulo" computerName="THAIS-PC" duration="00:00:00.0002382" startTime="2012-10-31T16:25:28.9812845-02:00" endTime="2012-10-31T16:25:28.9872848-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebaa9d01-5921-4470-b061-dbdac3c3d8a4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

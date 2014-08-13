@@ -1,0 +1,7 @@
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Entidades.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Entidades.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Util.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Util.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Entidades\obj\Debug\Rastreabilidade.Entidades.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Entidades\obj\Debug\Rastreabilidade.Entidades.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Entidades\obj\Debug\Rastreabilidade.Entidades.csprojResolveAssemblyReference.cache

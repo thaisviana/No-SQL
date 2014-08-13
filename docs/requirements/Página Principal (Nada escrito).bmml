@@ -1,0 +1,17 @@
+<mockup version="1.0" skin="sketch" measuredW="862" measuredH="559" mockupW="805" mockupH="537">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="57" y="22" w="805" h="537" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="203" y="222" w="512" h="136" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="231" y="276" w="-1" h="-1" measuredW="140" measuredH="28" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Rastreabilidade</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::SearchBox" x="386" y="277" w="314" h="-1" measuredW="307" measuredH="25" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>busque%20aqui%20por%20m%F3dulos%2C%20tabelas%20ou%20casos%20de%20uso</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

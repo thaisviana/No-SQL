@@ -1,0 +1,16 @@
+Um módulo é um grupo de tabelas e funcionalidades associadas a essas tabelas.
+
+Nosso sistema de rastreabilidade deve ser capaz de gerenciar a adição, alteração e remoção de módulos.
+
+Devemos ser capazes de acessar um módulo através de uma URL única. 
+Exemplo: http://rastreabilidade/modulos/operacao
+
+que nos levaria a página do módulo de "Operação", onde é possível alterar o nome do módulo e as tabelas associadas a ele.
+Ver mockup("Manter Módulo.png")
+
+a partir dessa tela deve ser possível também remover o módulo (confirmando antes a operação). A remoção implica em setar o boolean Ativo para false. Nenhum módulo ativo deve ser retornado na busca.
+
+A url http://rastreabilidade/modulos/novo
+deve levar a uma página para criação de novos módulos idêntica a de alteração.
+
+Não podem existir dois módulos ativos com o mesmo nome (se certifique disso na adição e alteração de um módulo)

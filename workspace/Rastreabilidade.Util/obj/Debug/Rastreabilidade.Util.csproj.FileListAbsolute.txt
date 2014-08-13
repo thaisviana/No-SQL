@@ -1,0 +1,4 @@
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Util\bin\Debug\Rastreabilidade.Util.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Util\bin\Debug\Rastreabilidade.Util.pdb
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Util\obj\Debug\Rastreabilidade.Util.dll
+C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Util\obj\Debug\Rastreabilidade.Util.pdb

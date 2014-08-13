@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f6d31483-002a-4dd1-a79a-bb19e7fae521" name="Thais@THAIS-PC 2012-10-08 22:33:01" runUser="Thais-PC\Thais" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="dee03bd6-f88d-4d9a-93e0-78b7d20ee870">
+    <Deployment runDeploymentRoot="Thais_THAIS-PC 2012-10-08 22_33_01">
+      <DeploymentItem filename="C:\ingresso\Rastreabilidade\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Entidades.dll" />
+      <DeploymentItem filename="C:\ingresso\Rastreabilidade\workspace\Rastreabilidade\bin\Rastreabilidade.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-08T22:33:01.3890838-03:00" queuing="2012-10-08T22:33:03.7612195-03:00" start="2012-10-08T22:33:04.1032390-03:00" finish="2012-10-08T22:33:05.7273319-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerificaSlug" storage="c:\ingresso\rastreabilidade\workspace\rastreabilidade.tests\bin\debug\rastreabilidade.tests.dll" id="d6a7f577-f29d-e5a6-881a-ae7d95370252">
+      <Execution id="9491d144-c731-4d14-9629-7c0dccd18bbb" />
+      <TestMethod codeBase="C:/ingresso/Rastreabilidade/workspace/Rastreabilidade.Tests/bin/Debug/Rastreabilidade.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Rastreabilidade.Tests.Model.ValidacaoDeDadosTest, Rastreabilidade.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerificaSlug" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d6a7f577-f29d-e5a6-881a-ae7d95370252" executionId="9491d144-c731-4d14-9629-7c0dccd18bbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9491d144-c731-4d14-9629-7c0dccd18bbb" testId="d6a7f577-f29d-e5a6-881a-ae7d95370252" testName="VerificaSlug" computerName="THAIS-PC" duration="00:00:00.1956399" startTime="2012-10-08T22:33:04.3812549-03:00" endTime="2012-10-08T22:33:05.6573279-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9491d144-c731-4d14-9629-7c0dccd18bbb">
+    </UnitTestResult>
+  </Results>
+</TestRun>

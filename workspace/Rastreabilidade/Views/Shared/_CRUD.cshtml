@@ -1,0 +1,25 @@
+﻿@model Rastreabilidade.Entidades.Sluggable
+@{           
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form id="crud" class="span6">
+	<div class="row-fluid r-section-header">
+		<i class="icon-folder-open"></i>
+		<h2 id="@Model.Nome" class="h2">@RenderSection("HeaderLabel") : @Model.Nome</h2>
+	</div>
+	<div class="row-fluid">
+		<label class="span1" for="Nome">@Labels.Name</label>
+		<div class="span4">@Html.TextBoxFor(model => model.Nome)</div>
+	</div>
+	<div class="row-fluid">
+		<label class="span1" for="Url">@Labels.Url</label>
+		<div class="span4">
+			<input class="r-text-input" type="text" id="url" />
+		</div>
+	</div>
+	@RenderBody()
+	<div class="row-fluid">
+		<input id="save" type="button" value="@Labels.Save" class="btn btn-primary span3" />
+		<input id="delete" type="button" value="@Labels.Delete" class="btn btn-danger span3" />
+	</div>
+</form>

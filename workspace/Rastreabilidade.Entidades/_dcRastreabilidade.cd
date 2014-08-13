@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Rastreabilidade.Entidades.Modulo" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Tabelas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Rastreabilidade.Entidades.Tabela" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tabela.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rastreabilidade.Entidades.CasoUso">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>CasoUso.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Referencias" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Rastreabilidade.Entidades.Referencia">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Referencia.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tabela" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Rastreabilidade.Entidades.Sluggable" Collapsed="true">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAA=</HashCode>
+      <FileName>Sluggable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

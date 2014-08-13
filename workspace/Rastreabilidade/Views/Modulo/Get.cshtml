@@ -1,0 +1,58 @@
+﻿@model Rastreabilidade.Models.ModuloModelView
+@{ 
+	ViewBag.Title = string.Format("{0} {1}", Labels.Module, Model.Nome);
+	Layout = "~/Views/Shared/_CRUD.cshtml";
+}
+@section HeaderLabel {@Labels.Module}
+
+@Html.HiddenFor(model => model.TabelasComVirgulas)
+@Html.HiddenFor(model => model.oldID)
+
+<div class="row-fluid" id="@Model.Nome">
+	
+	@Labels.CountTable <span id="count"></span> @Labels.Tables
+</div>
+<div class="row-fluid">
+	<ul id="list_table" class="r-scrollable">
+		@if (Model.Tabelas.Any()) {
+
+	  foreach (var t in Model.Tabelas) {
+			<li class="list-item">
+				<div class="row-fluid">
+					<div class="span1">
+						<i class="icon-th"></i>
+					</div>
+					<div class="span10" id="@t.Nome" >
+						<a class="a-@t.Nome">@t.Nome</a>
+					</div>
+					<div class="span1" id="icon-remove-@t.Nome">
+						<i class="icon-remove"></i>
+					</div>
+				</div>
+			</li>
+	  }
+  }
+	</ul>
+</div>
+<div class="row-fluid">
+	<label class="span3" for="table">@Labels.AddTable</label>
+	<div class="span5">@Html.TextBox("table")</div>
+	<div id="icon-plus" class="span1">
+		<i class="icon-plus"></i>
+	</div>
+</div>
+<script type="template" id="list-item-table">
+<li class="list-item">
+	<div class="row-fluid">
+		<div class="span1">
+			<i class="icon-th"></i>
+		</div>
+		<div class="span10" id="{{tableName}}">
+			<a class="a-{{tableName}}">{{tableName}}</a>
+		</div>
+		<div class="span1" id="icon-remove-{{tableName}}">
+			<i class="icon-remove"></i>
+		</div>
+	</div>
+</li>
+</script>
