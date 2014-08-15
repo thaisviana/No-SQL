@@ -1,0 +1,579 @@
+// TAXONOMIA 
+
+SPAN.TreeviewSpanArea A {
+	FONT-SIZE: 11px; COLOR: #333366; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+SPAN.TreeviewSpanArea A:hover {
+	TEXT-DECORATION: underline
+}
+
+
+
+A {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	color: 000000;
+}
+A:hover {
+TEXT-DECORATION: underline
+}
+
+.td_aba_selecionada {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #CCCC99;
+}
+
+.td_aba_nao_selecionada {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #8C8C5E;
+}
+
+.ft_branca_10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.ft_branca_11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+.ft_amarela_12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CCCC99;
+}
+
+.td_titulo_box_taxonomia {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-color: e7e7cf;
+}
+
+.td_corpo_box_taxonomia {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: 333366;
+	background-color: #F7F7EE;
+}
+
+.ft_azul_10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #003366;
+}
+
+.ft_preto_12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.ft_cinza_11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+
+.ft_preto_10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+}
+
+.ft_preto_10_sublinhado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.ft_preto_14 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.bt_acao, 
+.bt_acao_fixed_width_100 {
+	background-color: #CCCC99;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.bt_acao_fixed_width_100 {
+	width: 100px;
+}
+
+.tb_campo {
+	border: 1px solid #CCCC99;
+}
+
+.td_titulo_campo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #EBEBEB;
+	border-top: 2px solid #FFFFFF;
+	border-right: 2px solid #FFFFFF;
+	border-left: 2px solid #FFFFFF;
+	padding:5px;
+}
+
+.td_corpo_campo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	padding: 5px;
+}
+
+.td_corpo_campo textarea, .td_corpo_campo input {
+	width: 100%;
+}
+
+.td_titulo_box, .td_titulo_box_esq, .td_titulo_box_dir, .td_titulo_box_unico {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #E7E7CF;
+	border-top: 2px solid #FFFFFF;
+	border-right: 2px solid #FFFFFF;
+	border-left: 2px solid #FFFFFF;
+	padding:5px;
+}
+.td_titulo_box_esq, .td_titulo_box_unico {
+	border-right: 0px;	
+}
+.td_titulo_box_dir, .td_titulo_box_unico {
+	border-left: 0px;
+}
+
+.td_corpo_box_cinza, .td_corpo_box_cinza_esq, .td_corpo_box_cinza_meio,.td_corpo_box_cinza_dir, .td_corpo_box_cinza_unico {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #F3F3F3;
+	padding:5px;
+}
+.td_corpo_box_cinza_meio {
+	border-left: none;
+	border-right: none;
+}
+.td_corpo_box_cinza_esq, .td_corpo_box_cinza_unico {
+	border-left: 2px solid #FFFFFF;	
+}
+.td_corpo_box_cinza_dir, .td_corpo_box_cinza_unico {
+	border-right: 2px solid #FFFFFF;
+}
+
+.td_corpo_box_branco, .td_corpo_box_branco_esq, .td_corpo_box_branco_meio, .td_corpo_box_branco_dir, .td_corpo_box_branco_unico {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding:5px;
+}
+.td_corpo_box_branco_meio {
+	border-left: none;
+	border-right: none;
+}
+.td_corpo_box_branco_esq, .td_corpo_box_branco_unico {
+	border-left: 2px solid #FFFFFF;	
+}
+.td_corpo_box_branco_dir, .td_corpo_box_branco_unico {
+	border-right: 2px solid #FFFFFF;
+}
+
+.td_linha_cartao_pessoal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #F3F3F3;
+	padding:2px;
+}
+
+.td_fio_borda {
+	height=2px;
+}
+
+.ft_preto_10_bold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+}
+.ft_preto_12_sublinhado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: underline;
+}
+.ft_preto_12_bold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+.ft_preto_11 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.ft_preto_11_link {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	cursor: pointer;
+	cursor: hand;
+}
+.ft_rosa_11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #901E78;
+	font-weight: bold;
+}
+.tb_minha_pagina {
+	border-top: 1px solid #666666;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #666666;
+}
+.td_itens_rascunho_titulo, 
+.td_itens_ItemConhecimentoCriadorPublicadosParaImplementacao,
+.td_itens_ItemConhecimentoPublicadosParaImplementacaoUsrValidadorArea,
+.td_itens_ItemConhecimentoLider_GAAnalisadosEnviadoImplementacao,
+.td_itens_ItemConhecimentoMembroGrupoAnaliseEnviadoImplementacao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+.td_itens_validacao_titulo, 
+.td_itens_ItemConhecimentoCriadorPublicadosNaoParaImplementacao,
+.td_itens_ItemConhecimentoPublicadosNaoParaImplementacaoUsrValidadorArea,
+.td_itens_ItemConhecimentoLider_GAAnalisadosNaoEnviadoImplementacao,
+.td_itens_ItemConhecimentoMembroGrupoAnaliseNaoEnviadoImplementacao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #FFFDCE;
+}
+.td_itens_reedicao_titulo, 
+.td_itens_ItemConhecimentoCriadorPublicadosImplementado,
+.td_itens_ItemConhecimentoPublicadosImplementadoUsrValidadorArea {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #CEDAE1;
+}
+.td_itens_aprovados_titulo {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #D6F0AE;
+}
+.td_box_minha_pagina {
+	background-color: #F7F7EE;
+}
+.td_itens_validacao_pormim,
+.td_itens_ItemConhecimentoCriadorPublicadosSemAnalise,
+.td_itens_ItemConhecimentoPublicadosSemAnaliseUsrValidadorArea,
+.td_itens_ItemConhecimentoLider_GAEmAnaliseImplementacao,
+.td_itens_ItemConhecimentoMembroGrupoAnaliseEmAnaliseImplementacao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #999999;
+}
+.td_itens_disponiveis_validacao,
+.td_itens_ItemConhecimentoCriadorEnviadoParaAnalise,
+.td_itens_ItemConhecimentoEnviadoParaAnaliseUsrValidadorArea,
+.td_itens_ItemConhecimentoLider_GADesignadoAnalise,
+.td_itens_ItemConhecimentoMembroGrupoAnaliseEnvAnalise {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #CCCCCC;
+}
+.td_voce_recomendou {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #E7E7CF;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: middle;
+}
+.cmp_formulario {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	width: 100%;
+}
+.ft_preto_11_bold {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight: bold;
+}
+.ft_marrom_14_bold {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #8C8C5E;
+	font-weight: bold;
+}
+
+INPUT.dataBusca
+{
+	width: 100;
+}
+
+.fotoSizeStyle
+{
+	height: 120px;
+}
+
+.fotoSizeStyle_100
+{
+	height: 100px;
+}
+
+.fotoBuscaStyle
+{
+	vertical-align: middle;
+	border: 0px;
+	height: 70px;
+	width: 70px;
+}
+
+.div-table-scroll-6
+{
+	overflow: auto;
+	height:144px;
+}
+
+.div-table-scroll-4
+{
+	overflow: auto;
+	height:92px;
+}
+
+.table-data
+{
+	border: 1px solid #666666;
+	width: 100%;
+}
+
+.tb_campo TEXTAREA
+{
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.sort-table {
+	font:		Icon;
+	border: 1px solid #CCCC99;
+	color:		WindowText;
+}
+
+.sort-table thead {
+	background:	ButtonFace;
+}
+
+.sort-table td {
+	padding:	2px 5px;
+}
+
+.sort-table thead td {
+	ButtonShadow ButtonHighlight;
+	cursor:  hand;
+}
+
+.sort-table thead td:active {
+	padding:		3px 4px 1px 6px;
+}
+
+.sort-table thead td[_sortType=None]:active {
+	border-color:	ButtonHighlight ButtonShadow
+					ButtonShadow ButtonHighlight;
+	padding:		2px 5px;
+}
+
+.sort-arrow {
+	width:					11px;
+	height:					11px;
+	background-position:	center center;
+	background-repeat:		no-repeat;
+	margin:					0 2px;
+}
+
+
+.sort-arrow.descending {
+	background-image: url("../imagens/downsimple.png");
+
+}
+
+.sort-arrow.ascending {
+	background-image: url("../imagens/upsimple.png");
+}
+
+.td_sort-font {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+
+
+/* Edita Relacoes */
+
+.editRelationsIFrame
+{
+	position: absolute;
+	visibility: hidden;
+	height: 0px;
+	width: 100%;
+}
+.editRelationsButton
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	cursor: pointer;
+	cursor: hand;
+	border: 1px solid #CCCC99;
+}
+
+.body_edita_relacoes {
+	padding: 0px; 
+	margin: 0px;
+	overflow-y: hidden
+}
+
+.bt_acao_edita_relacoes {
+	background-color: #CCCC99;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;	
+	width: 120; 
+	height:23px;
+}
+
+.tb_taxonomyRelationContainer
+{
+	padding: 0px; 
+	margin: 0px; 
+	margin-top: 7px;
+}
+
+.taxonomyRelationContainer
+{
+	height: 290px;
+	max-height: 290px;
+	width: 90%;
+	max-width: 90%;
+	overflow: auto;
+	display:block; 
+	border:1px solid #CCCC99; 
+	background-color: #F7F7EE;
+}
+
+.taxonomyRelationCascadeSelectionControl
+{
+	font-size: 14px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.taxonomyRelationContainerAdvSearch
+{
+	height: 232px;
+	max-height: 232px;
+	width: 100%;
+	max-width: 100%;
+	overflow: auto;
+	padding: 5px;
+}
+
+.taxonomyRelationCascadeSelectionControlAdvSearch
+{
+	font-size: 12px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	background-color: #EBEBEB; 
+	padding: 5px; 
+	border-bottom: 1px solid black;
+}
+
+#relatedElementsForm
+{
+	position: absolute;
+	visibility: hidden;
+	height: 0px;
+}
+
+
+
+/* classes for validator */
+.tfvHighlight{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	font-weight: bold; 
+	color: red;
+	background-color: #EBEBEB;
+	border-top: 2px solid #FFFFFF;
+	border-right: 2px solid #FFFFFF;
+	border-bottom: 2px #FFFFFF;
+	border-left: 2px solid #FFFFFF;
+}
+.tfvNormal{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #EBEBEB;
+	border-top: 2px solid #FFFFFF;
+	border-right: 2px solid #FFFFFF;
+	border-bottom: 2px #FFFFFF;
+	border-left: 2px solid #FFFFFF;
+}
+
+.paginacao{
+	color: #777777;
+}
+
+.paginacaoCorrente{
+	color: #000000;
+}
