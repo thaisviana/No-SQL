@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Rastreabilidade.Entidades.Persistence {
+namespace BIC.Entidades.Persistence {
     
     /// <summary>
     /// Define um repositório de armazenamento de entidades que deve implementar uma lógica de persistência
@@ -11,7 +11,7 @@ namespace Rastreabilidade.Entidades.Persistence {
         /// <summary>
         /// Retorna um único elemento do repositório que possua uma chave <param name="key">Key</param>
         /// </summary>
-        /// <exception cref="Rastreabilidade.Entidades.Persistence.EntityNotFoundException">Ocorre quando não encontramos o elemento buscado</exception>
+        /// <exception cref="BIC.Entidades.Persistence.EntityNotFoundException">Ocorre quando não encontramos o elemento buscado</exception>
         T Single(object key);
         
         /// <summary>

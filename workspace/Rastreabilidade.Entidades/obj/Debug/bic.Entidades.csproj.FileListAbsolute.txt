@@ -1,0 +1,7 @@
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Entidades.dll
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Entidades.pdb
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Util.dll
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Entidades\bin\Debug\Rastreabilidade.Util.pdb
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Entidades\obj\Debug\bic.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Entidades\obj\Debug\Rastreabilidade.Entidades.dll
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Entidades\obj\Debug\Rastreabilidade.Entidades.pdb

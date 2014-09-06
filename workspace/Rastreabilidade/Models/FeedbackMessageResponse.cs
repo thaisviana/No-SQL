@@ -1,5 +1,5 @@
 ﻿
-namespace Rastreabilidade.Models {
+namespace BIC.Models {
 
     /// <summary>
     /// Respostas básicas as ações de CRUD
@@ -27,5 +27,5 @@ namespace Rastreabilidade.Models {
     /// <summary>
     /// Estados possíveis de uma resposta
     /// </summary>
-    public enum Status { SUCCESS, INFO, ALERT, FAIL } 
+    public enum Status { SUCCESS, INFO, ALERT, FAIL }
 }

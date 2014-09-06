@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using Rastreabilidade.Infrastructure;
+using BIC.Infrastructure;
 
-namespace Rastreabilidade {
+namespace BIC {
 
     public class MvcApplication : System.Web.HttpApplication {
         
@@ -28,6 +28,18 @@ namespace Rastreabilidade {
                 "{controller}/{id}/{action}/", // URL with parameters
                 new { controller = "Home", action = "Get", id = UrlParameter.Optional } // Parameter defaults
             );
+
+            routes.MapRoute(
+                null, // Route name
+                "{controller}/{action}/", // URL with parameters
+                new { controller = "Item", action = "HandleForm" } // Parameter defaults
+            );
+
+            routes.MapRoute(
+               null, // Route name
+               "{controller}/{action}/{id}", // URL with parameters
+               new { controller = "Item", action = "Get", id = UrlParameter.Optional } // Parameter defaults
+           );
         }
 
         public static void RegisterGlobalFilters(GlobalFilterCollection filters) {

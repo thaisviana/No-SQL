@@ -1,0 +1,15 @@
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Persistence.Mongo.dll
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Persistence.Mongo.pdb
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Bson.dll
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Driver.dll
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Entidades.dll
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Util.dll
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Entidades.pdb
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Bson.pdb
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Bson.xml
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Driver.pdb
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\MongoDB.Driver.xml
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\bin\Debug\Rastreabilidade.Util.pdb
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\obj\Debug\BIC.Persistence.Mongo.csprojResolveAssemblyReference.cache
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\obj\Debug\Rastreabilidade.Persistence.Mongo.dll
+C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Persistence.Mongo\obj\Debug\Rastreabilidade.Persistence.Mongo.pdb

@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Rastreabilidade.Util {
+namespace BIC.Util {
     /// <summary>
     /// Injeta o método GenerateSlug no tipo string
     /// </summary>

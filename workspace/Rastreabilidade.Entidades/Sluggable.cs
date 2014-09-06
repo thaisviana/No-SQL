@@ -1,6 +1,6 @@
-﻿using Rastreabilidade.Util;
+﻿using BIC.Util;
 
-namespace Rastreabilidade.Entidades {
+namespace BIC.Entidades {
     /// <summary>
     /// Entidade que possui um nome e um slug derivado dele (nome para URL)
     /// </summary>

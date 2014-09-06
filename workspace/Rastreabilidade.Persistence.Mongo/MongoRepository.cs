@@ -5,10 +5,10 @@ using System.Linq;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
-using Rastreabilidade.Entidades;
-using Rastreabilidade.Entidades.Persistence;
+using BIC.Entidades;
+using BIC.Entidades.Persistence;
 
-namespace Rastreabilidade.Persistence.Mongo {
+namespace BIC.Persistence.Mongo {
 
     /// <summary>
     /// Implementa a persistência via o banco de dados MongoDB 
@@ -23,7 +23,7 @@ namespace Rastreabilidade.Persistence.Mongo {
         private ClassMapConfiguration _classMapConfig { get; set; }
 
         public MongoRepository() {
-            _connString = ConfigurationManager.ConnectionStrings["rastreabilidade"].ConnectionString;
+            _connString = ConfigurationManager.ConnectionStrings["BIC"].ConnectionString;
             Console.Write(_connString);
             _server = MongoServer.Create(_connString);
             _database = _server.GetDatabase(MongoUrl.Create(_connString).DatabaseName);

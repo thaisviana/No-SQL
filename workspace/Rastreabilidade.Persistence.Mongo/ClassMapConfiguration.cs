@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson.Serialization;
-using Rastreabilidade.Entidades;
+using BIC.Entidades;
 
-namespace Rastreabilidade.Persistence.Mongo {
+namespace BIC.Persistence.Mongo {
     /// <summary>
     /// Cria mapeamento das entidades de negócio e seus membros 
     /// em atributos dos documentos do mongoDB
