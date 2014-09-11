@@ -21,26 +21,12 @@ namespace BIC.Controllers
 
         [HttpGet]
         public ActionResult Get(ItemConhecimentoModelView model) {
-            if (string.IsNullOrWhiteSpace(model.Nome)) {
+            Sluggable i = model.MyBase();
+            if (string.IsNullOrWhiteSpace(i.Nome)) {
                 return View(new ItemConhecimentoModelView());
             }
-            return View(model);
+            return View((ItemConhecimentoModelView) i);
         }
-
-        [HttpPost]
-        public ActionResult Get(ItemConhecimentoModelView model) {
-            string nome = model.Nome;
-
-            return View(model);
-        }
-
-
-        [HttpPost]
-        public ActionResult HandleForm(ItemConhecimentoModelView model) {
-
-        return View("Get", model);
-        }
-        
 
     }
 }

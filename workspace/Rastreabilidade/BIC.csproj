@@ -93,23 +93,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Static\css\bootstrap-responsive.min.css" />
-    <Content Include="Static\css\bootstrap.min.css" />
+    <Content Include="Static\css\bootstrap.css" />
     <Content Include="Static\img\glyphicons-halflings-white.png" />
     <Content Include="Static\img\glyphicons-halflings.png" />
+    <Content Include="Static\img\search.png" />
+    <Content Include="Static\js\bic.js" />
     <Content Include="Static\js\bootbox.js" />
     <Content Include="Static\js\bootbox.min.js" />
-    <Content Include="Static\js\bootstrap.min.js" />
     <Content Include="Static\js\jquery-1.8.2.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Static\css\rastreabilidade.css" />
     <Content Include="Static\js\jquery-ui-1.8.24.min.js" />
     <Content Include="Static\js\mustache.js" />
-    <Content Include="Static\js\r\messages.dev.js" />
-    <Content Include="Static\js\r\crud.dev.js" />
-    <Content Include="Static\js\r\search.dev.js" />
-    <Content Include="Static\js\r\modulos.dev.js" />
-    <Content Include="Static\js\r\slug.plugin.dev.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

@@ -4,42 +4,65 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<h2>@ViewBag.Message</h2>
+
 @using (Html.BeginForm("HandleForm", "Item", FormMethod.Post)) { 
 <div class="container-fluid span10" id="main" style="background-color: white;">
 	<div>&nbsp</div>
     <div class="row-fluid" >
 		<label class="span2">Titulo : </label>
-		<div class="span4">@Html.TextBoxFor(model => model.Nome)</div>
+        @if (string.IsNullOrWhiteSpace(Model.Nome)) {
+            <div class="span4">@Html.TextBoxFor(model => model.Nome)</div>
+        }else {
+           <div class="span4">@Model.Nome</div>
+        }
+		
 	</div>
     <div class="row-fluid">
 		<div class="span2">Fonte :</div>
-		<div class="span8">@Html.TextBoxFor(model => model.Fonte)</div>
+		 @if (string.IsNullOrWhiteSpace(Model.Fonte)) {
+            <div class="span4">@Html.TextBoxFor(model => model.Fonte)</div>
+        }else {
+           <div class="span4">@Model.Fonte</div>
+        }
     </div>
-    <!--<div class="row-fluid">
-		<div class="span2">Autores :</div>
-		<div class="span8">@Html.TextBoxFor(model => model.Autores)</div>
-    </div>-->
     <div class="row-fluid">
 		<div class="span2">Pergunta A :</div>
-		<div class="span8">@Html.TextBoxFor(model => model.PerguntaA)</div>
+		 @if (string.IsNullOrWhiteSpace(Model.PerguntaA)) {
+            <div class="span4">@Html.TextBoxFor(model => model.PerguntaA)</div>
+        }else {
+           <div class="span4">@Model.PerguntaA</div>
+        }
     </div>
     <div class="row-fluid">
 		<div class="span2">Pergunta B :</div>
-		<div class="span8">@Html.TextBoxFor(model => model.PerguntaB)</div>
+		@if (string.IsNullOrWhiteSpace(Model.PerguntaB)) {
+            <div class="span4">@Html.TextBoxFor(model => model.PerguntaB)</div>
+        }else {
+           <div class="span4">@Model.PerguntaB</div>
+        }
     </div>
     <div class="row-fluid">
 		<div class="span2">Pergunta C :</div>
-		<div class="span8">@Html.TextBoxFor(model => model.PerguntaC)</div>
+		@if (string.IsNullOrWhiteSpace(Model.PerguntaC)) {
+            <div class="span4">@Html.TextBoxFor(model => model.PerguntaC)</div>
+        }else {
+           <div class="span4">@Model.PerguntaC</div>
+        }
     </div>
     <div class="row-fluid">
 		<div class="span2">Pergunta D :</div>
-		<div class="span8">@Html.TextBoxFor(model => model.PerguntaD)</div>
+		@if (string.IsNullOrWhiteSpace(Model.PerguntaD)) {
+            <div class="span4">@Html.TextBoxFor(model => model.PerguntaD)</div>
+        }else {
+           <div class="span4">@Model.PerguntaD</div>
+        }
     </div>
-
+    @if (string.IsNullOrWhiteSpace(Model.Nome)) {
     <div class="row-fluid">
 		<input id="btnSubmit" type="submit" value="Submit" />
     </div>
-
+    }
     
 </div>
 }

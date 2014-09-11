@@ -2,4 +2,3 @@ C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Util\bin\Debug\
 C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Util\bin\Debug\Rastreabilidade.Util.pdb
 C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Util\obj\Debug\Rastreabilidade.Util.dll
 C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Util\obj\Debug\Rastreabilidade.Util.pdb
-C:\Users\Thais\Documents\GitHub\No-SQL\workspace\Rastreabilidade.Util\obj\Debug\BIC.Util.csprojResolveAssemblyReference.cache

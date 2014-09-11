@@ -48,6 +48,7 @@
     <Compile Include="Referencia.cs" />
     <Compile Include="Sluggable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tema.cs" />
     <Compile Include="TipoEntidade.cs" />
     <Compile Include="TipoReferencia.cs" />
     <Compile Include="Usuario.cs" />

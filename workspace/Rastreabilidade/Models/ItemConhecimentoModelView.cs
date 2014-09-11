@@ -1,4 +1,5 @@
 ﻿using BIC.Entidades;
+using System.Collections.Generic;
 
 namespace BIC.Models {
     public class ItemConhecimentoModelView : Item {
@@ -7,8 +8,6 @@ namespace BIC.Models {
 
         public ItemConhecimentoModelView(Item item) {
             this.Nome = item.Nome;
-            this.Autores = item.Autores;
-            this.Anexos = item.Anexos;
             this.Fonte = item.Fonte;
             this.PerguntaA = item.PerguntaA;
             this.PerguntaB = item.PerguntaB;
@@ -17,7 +16,10 @@ namespace BIC.Models {
 
         }
 
-        public string oldID { get; set; }
+        public Sluggable MyBase() {
+            return (Sluggable)this;
+        }
+
 
     }
 }
