@@ -4,6 +4,7 @@ using BIC.Infrastructure;
 using BIC.Models;
 using BIC.Entidades;
 using BIC.Entidades.Persistence;
+using BIC.Util;
 using System.Collections.Generic;
 
 namespace BIC.Controllers {
@@ -36,13 +37,10 @@ namespace BIC.Controllers {
 
         [HttpPost]
         public ActionResult Search() {
-            ViewBag.Message = "Passou pelo search";
-            Item i = new Item();
-            i.Nome = "Oi";
-            i.Fonte = "Vim de uma busca";
-            i.PerguntaA = "Ninguém me perguntou nada";
-            i = _itemRepository.Single("projeto-de-no-sql");
-            return RedirectToAction("Get", "Item", new ItemConhecimentoModelView(i) );
+            string srchterm = Request.Form.GetValues("srch-term")[0];
+            srchterm = srchterm.GenerateSlug();
+            string a = "";
+            return RedirectToAction("Get", "Item", new ItemConhecimentoModelView(_itemRepository.Single(srchterm.GenerateSlug())));
         }
 
     }
