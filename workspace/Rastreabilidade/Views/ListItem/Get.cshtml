@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Get";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<BIC.Entidades.Item>
+
+<h2> @ViewBag.NomeTema</h2>
+
+
+
+@foreach (var i in Model) {
+    
+    if (i.Tema.ToString() == ViewBag.Tema) {
+        <div style="border: 1px solid gray">
+        <h2>Titulo : @i.Nome</h2>
+         <div>&nbsp<h3>Data:  @i.Data</h3></div>
+         <div>&nbsp<h3>Fonte : @i.Fonte</h3></div>
+          <div>&nbsp<h3>Tipo : @i.Tipo</h3></div>
+          <div>&nbsp<h3>Autor : @i.Autor</h3></div>
+         @if (@i.Tipo.Equals("BP")) {
+              <div>&nbsp<h3>Razão :  @i.Razao</h3></div>
+             <div>&nbsp<h3>Detalhes: @i.Detalhes</h3></div>
+         }
+         @if (@i.Tipo.Equals("LA")) { 
+             <div>&nbsp<h3>O que aconteceu? @i.Aconteceu</h3></div>
+             <div>&nbsp<h3>O que podemos aprender? @i.Aprendizado</h3></div>
+             <div>&nbsp<h3>Por que ocorreram as diferenças?  @i.Diferencas</h3></div>
+             <div>&nbsp<h3>O que era esperado acontecer? @i.Esperado</h3></div>
+         }
+         @if (@i.Tipo.Equals("PA")) { 
+             <div>&nbsp<h3>O que fazer :  @i.Oque</h3></div>
+             <div>&nbsp<h3>Porque Fazer : @i.Porque</h3></div>
+         }
+         
+        </div>
+     
+           
+    }
+}
+  

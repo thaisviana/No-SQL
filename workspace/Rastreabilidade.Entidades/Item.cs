@@ -7,7 +7,7 @@ namespace BIC.Entidades {
         public string tema_id;
         public string tema_Nome;
 
-        public double Autor;
+        public string Autor;
 
         public double ID;
 

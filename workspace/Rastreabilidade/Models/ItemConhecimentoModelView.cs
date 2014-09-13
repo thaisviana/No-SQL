@@ -10,6 +10,7 @@ namespace BIC.Models {
             this.Fonte = item.Fonte;
             this.Tipo = item.Tipo;
             this.Tema = item.Tema;
+            this.ID = this.ID;
             this.Autor = item.Autor;
 
             //perguntas PA

@@ -23,23 +23,25 @@ namespace BIC {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             routes.IgnoreRoute("Static/{*filename}");
 
+
             routes.MapRoute(
-                null, // Route name
+                "Default", // Route name
                 "{controller}/{id}/{action}/", // URL with parameters
                 new { controller = "Home", action = "Get", id = UrlParameter.Optional } // Parameter defaults
             );
 
             routes.MapRoute(
-                null, // Route name
-                "{controller}/{action}/", // URL with parameters
-                new { controller = "Item", action = "HandleForm" } // Parameter defaults
-            );
+               null, // Route name
+               "{controller}/{action}/{id}", // URL with parameters
+               new { controller = "ListItem", action = "Get", id = UrlParameter.Optional } // Parameter defaults
+           );
 
             routes.MapRoute(
                null, // Route name
                "{controller}/{action}/{id}", // URL with parameters
                new { controller = "Item", action = "Get", id = UrlParameter.Optional } // Parameter defaults
            );
+
         }
 
         public static void RegisterGlobalFilters(GlobalFilterCollection filters) {
