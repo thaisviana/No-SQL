@@ -7,12 +7,28 @@ namespace BIC.Entidades {
     public abstract class Sluggable {
 
         private string _nome;
-        private char _tipo;
-        private string _perguntaA;
-        private string _perguntaB;
-        private string _perguntaC;
-        private string _perguntaD;
+        private string _tipo;
         private string _fonte;
+        private double _tema;
+
+        private string _Complemento;
+        private string _Data;
+
+        //perguntas  PA
+        private string _Oque;
+        private string _Porque;
+
+        //perguntas BP
+
+        private string _razao;
+        private string _detalhes;
+
+        //perguntas LA
+
+        private string _esperado;
+        private string _aconteceu;
+        private string _diferencas;
+        private string _aprendizado;
 
         /// <summary>
         /// Nome da tabela sem o schema
@@ -38,47 +54,120 @@ namespace BIC.Entidades {
             }
         }
 
-        public string PerguntaA {
-            get {
-                return this._perguntaA;
-            }
-            set {
-                this._perguntaA = value;
-            }
-        }
 
-        public string PerguntaB {
+        public double Tema {
             get {
-                return this._perguntaB;
+                return this._tema;
             }
             set {
-                this._perguntaB = value;
+                this._tema = value;
             }
         }
-
-        public string PerguntaC {
-            get {
-                return this._perguntaC;
-            }
-            set {
-                this._perguntaC = value;
-            }
-        }
-
-        public string PerguntaD {
-            get {
-                return this._perguntaD;
-            }
-            set {
-                this._perguntaD = value;
-            }
-        }
-        public char Tipo {
+        public string Tipo {
             get {
                 return this._tipo;
             }
             set {
                 this._tipo = value;
+            }
+        }
+
+
+        //Perguntas PA
+
+        public string Oque {
+            get {
+                return this._Oque;
+            }
+            set {
+                this._Oque = value;
+            }
+        }
+
+        public string Porque {
+            get {
+                return this._Porque;
+            }
+            set {
+                this._Porque = value;
+            }
+        }
+
+        //Perguntas BP
+
+        public string Razao {
+            get {
+                return this._razao;
+            }
+            set {
+                this._razao = value;
+            }
+        }
+
+        public string Detalhes {
+            get {
+                return this._detalhes;
+            }
+            set {
+                this._detalhes = value;
+            }
+        }
+
+
+        //perguntas LA
+        
+        public string Aprendizado {
+            get {
+                return this._aprendizado;
+            }
+            set {
+                this._aprendizado = value;
+            }
+        }
+
+        public string Diferencas {
+            get {
+                return this._diferencas;
+            }
+            set {
+                this._diferencas = value;
+            }
+        }
+
+
+        public string Aconteceu {
+            get {
+                return this._aconteceu ;
+            }
+            set {
+                this._aconteceu = value;
+            }
+        }
+
+        public string Esperado {
+            get {
+                return this._esperado;
+            }
+            set {
+                this._esperado = value;
+            }
+        }
+
+        public string Complemento {
+            get {
+                return this._Complemento;
+            }
+            set {
+                this._Complemento = value;
+            }
+        }
+
+        public string Data {
+            get {
+                return this._Data;
+            }
+            set {
+                this._Data = value;
             }
         }
 

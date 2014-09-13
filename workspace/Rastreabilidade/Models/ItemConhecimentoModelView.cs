@@ -1,5 +1,4 @@
 ﻿using BIC.Entidades;
-using System.Collections.Generic;
 
 namespace BIC.Models {
     public class ItemConhecimentoModelView : Item {
@@ -9,10 +8,30 @@ namespace BIC.Models {
         public ItemConhecimentoModelView(Item item) {
             this.Nome = item.Nome;
             this.Fonte = item.Fonte;
-            this.PerguntaA = item.PerguntaA;
-            this.PerguntaB = item.PerguntaB;
-            this.PerguntaC = item.PerguntaC;
-            this.PerguntaD = item.PerguntaD;
+            this.Tipo = item.Tipo;
+            this.Tema = item.Tema;
+            this.Autor = item.Autor;
+
+            //perguntas PA
+
+            this.Oque = item.Oque;
+            this.Porque = item.Porque;
+
+            //perguntas BP
+
+            this.Razao = item.Razao;
+            this.Detalhes = item.Detalhes;
+
+            //perguntas LA
+
+            this.Diferencas = item.Diferencas;
+            this.Esperado = item.Esperado;
+            this.Aconteceu = item.Aconteceu;
+            this.Aprendizado = item.Aprendizado;
+            
+            this.Complemento = item.Complemento;
+
+            this.Data = item.Data;
 
         }
 

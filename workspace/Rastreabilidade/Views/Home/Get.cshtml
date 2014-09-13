@@ -1,7 +1,37 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+@model IEnumerable<BIC.Entidades.Tema>
+
+<div style="background-color : White">
+@foreach (var t in Model) {
+    <div class="row">
+
+    @if (t.nivel == 1 ){
+         <div class="col-md-3" ><h3 class="tema" id="@t.ID"> @t.Nome   
+         <a class="glyphicon glyphicon-search" href = "@Url.Action("Get", "ListItem", new { tema = @t.ID , nomeTema = @t.Nome})"></a></h3>
+         </div>        
+        foreach (var st in Model) {
+         <div class="row">    
+             @if (t.Children.Contains(st.ID) && st.nivel == 2) {
+                <div class="col-md-2"></div><div class="col-md-3"><h3 class="tema" id="@st.ID">@st.Nome   
+                <a class="glyphicon glyphicon-search" href = "@Url.Action("Get", "ListItem", new { tema = @st.ID, nomeTema = @st.Nome })"></a>
+                </div>
+                 foreach (var sst in Model) {
+                 <div class="row">
+                     @if (st.Children.Contains(sst.ID) && sst.nivel == 3 && sst.ID != 38) {
+                         <div class="col-md-2"></div> <div class="col-md-1"></div><div class="col-md-3"><h3 class="tema" id="@sst.ID">  @sst.Nome   
+                         <a class="glyphicon glyphicon-search" href = "@Url.Action("Get", "ListItem", new { tema = @sst.ID, nomeTema = @sst.Nome })"></a>
+                         </div>
+                     } 
+                     </div>
+                 }
+             }
+        </div>
+        }
+    }
 
 
-<h2>@ViewBag.Message</h2>
-
+    </div>   
+}
+</div>

@@ -1,12 +1,19 @@
 ﻿
 using System.Collections.Generic;
 namespace BIC.Entidades {
-    public class Tema {
+    public class Tema : Sluggable {
 
-        public string Nome;
+       
+        public double nivel;
 
-        public string nivel;
+        public List<double> Children;
 
-        public List<Tema> Children;
+        public double ID;
+
+        public string oldID;
+
+        public Sluggable MyBase() {
+            return (Sluggable)this;
+        }
     }
 }

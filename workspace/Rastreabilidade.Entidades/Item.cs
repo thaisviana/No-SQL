@@ -1,19 +1,17 @@
 ﻿
-using System.Collections.Generic;
 
 namespace BIC.Entidades {
     public class Item : Sluggable {
+
+
+        public string tema_id;
+        public string tema_Nome;
+
+        public double Autor;
+
+        public double ID;
+
          
-        /*public char Tipo;
-        public string PerguntaA;
-        public string PerguntaB;
-        public string PerguntaC;
-        public string PerguntaD;
-        public List<Usuario> Autores;
-        public string Fonte;
-        public List<Anexo> Anexos;*/
-
-
         public string oldID;
 
         public Sluggable MyBase () {

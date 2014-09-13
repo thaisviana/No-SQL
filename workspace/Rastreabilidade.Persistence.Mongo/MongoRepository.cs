@@ -80,22 +80,6 @@ namespace BIC.Persistence.Mongo {
         public void Delete(object key) {
             _collection.Remove(new QueryDocument("_id",
                                                  BsonValue.Create(key)));
-            /*string type = typeof(T).Name;
-            string blah = "Modulo";
-            bool test = type.Equals(blah);
-            if (keyType.Equals("Tabela")) {
-                IQueryable query = _collection.AsQueryable<Modulo>().Select(m => m.Tabelas);
-                foreach (Modulo m in query) {
-                    MongoCollection<Modulo> tempCollection = _database.GetCollection<Modulo>("modulo");
-                    foreach (Tabela t in m.Tabelas) {
-                        if (t.Slug.Equals(key)) {
-                            m.Tabelas.Remove(t);
-                        }
-                    }
-                    tempCollection.Save(m);
-                }
-            }*/
-
         }
     }
 }

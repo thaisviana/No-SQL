@@ -22,6 +22,7 @@ namespace BIC.Infrastructure {
             ninjectKernel = new StandardKernel();
 
             ninjectKernel.Bind<IRepository<Item>>().To<MongoRepository<Item>>();
+            ninjectKernel.Bind<IRepository<Tema>>().To<MongoRepository<Tema>>();
         }
 
         /// <summary>
